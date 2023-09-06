@@ -1,0 +1,117 @@
+
+.photo{
+    position: absolute;
+    top: 100px;
+    right: 1100px;
+    width: 113px;
+    height: 113px;
+    border-radius: 100px;
+}
+
+div{
+    width: 700px;
+    background-color: brown;
+}
+
+.cv-container{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 650px;
+    margin: 100px auto;
+}
+
+.header{
+    width: 650px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.left-column{
+    grid-area: left-column;
+    width: 250px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.right-column{
+    grid-area: right-column;
+    width: 400px;
+    background-color: white;
+    grid-column-start: 2.5;
+    grid-column-end: 2.5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    position: relative;
+    right: 400px;
+
+}
+
+.footer{
+    grid-area: footer;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+#info{
+    position: center;
+    background-color: darkslategrey;
+    color: white;
+}
+
+#adresse{
+    text-align: left;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+#mail{
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
+
+#telephone{
+    text-align: right;
+    position: relative;
+    top: -45px;
+    right: 10px;
+    
+}
+
+h3{
+    background-color: bisque;
+}
+
+.A-propos{
+    color: white;
+}
+
+li{
+    color: white;
+}
+
+#liste{
+    color: black;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
